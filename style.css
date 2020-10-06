@@ -1,9 +1,42 @@
+/* Website Styles */
+
+* {
+  font-size: 100%;
+}
+
 body {
   background-color: Black;
   color: White;
   font-family: Arial;
+  font-size: 14px;
 }
 
 h1 {
   color: white;
+  font-size: 36px;
+  text-align: left;
+}
+header h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+h1, h2, h3 {
+  font-weight: 900;
+  font-style: italic;
+}
+p {
+  line-height: 2;
+}
+a {
+  color: red;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
 }
