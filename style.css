@@ -13,6 +13,8 @@ body {
   color: White;
   font-family: Arial;
   font-size: 14px;
+  background-image: url(images/repeated-square-dark.png);
+   background-repeat: repeat;
 }
 header,
 section,
@@ -81,4 +83,16 @@ img {
 .title {
   font-size: 48px;
   text-decoration: underline;
+}
+
+ .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image: url(images/background2.jpg);
+   background-size: cover;
+   background-position: center;
 }
